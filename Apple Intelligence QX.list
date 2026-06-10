@@ -2,13 +2,21 @@
 # 来自：https://raw.githubusercontent.com/fmz200/wool_scripts/main/Loon/rule/AI.list，https://t.me/QuantumultXCommunity/71805
 
 
-# Apple Intelligence
-DOMAIN-SUFFIX,apple-relay.apple.com
-DOMAIN-SUFFIX,apple-relay.fastly-edge.com
-DOMAIN-SUFFIX,apple-relay.cloudflare.com
-DOMAIN-SUFFIX,apple-relay.akamaized.net
-DOMAIN-SUFFIX,gateway.icloud.com
-DOMAIN-SUFFIX,guzzoni.apple.com
-DOMAIN-SUFFIX,cp4.cloudflare.com
-DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
-DOMAIN-SUFFIX,apps.mzstatic.com
+# 苹果AI相关域名
+DOMAIN-SUFFIX,guzzoni.apple.com,PROXY
+DOMAIN-SUFFIX,smoot.apple.com,PROXY
+DOMAIN-SUFFIX,apple-relay.apple.com,PROXY
+DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com,PROXY
+DOMAIN-SUFFIX,apple-relay.akamaized.net,PROXY
+DOMAIN-SUFFIX,apple-relay.mask.apple-dns.net,PROXY
+DOMAIN-SUFFIX,apple-intelligence.apple.com,PROXY
+DOMAIN-SUFFIX,ai.apple.com,PROXY
+DOMAIN-SUFFIX,oaiusercontent.com,PROXY
+# 其他相关域名
+DOMAIN-SUFFIX,openai.com,PROXY
+DOMAIN-SUFFIX,api.openai.com,PROXY
+DOMAIN-SUFFIX,cdn.openai.com,PROXY
+DOMAIN-SUFFIX,apple-relay.cloudflare.com,PROXY
+DOMAIN-SUFFIX,apple-relay.fastly-edge.com,PROXY
+DOMAIN-SUFFIX,cp4.cloudflare.com,PROXY
+ 
